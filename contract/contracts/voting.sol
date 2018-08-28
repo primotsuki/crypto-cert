@@ -22,9 +22,10 @@ contract voting is Ownable {
     emit NewCandidate(_addr,_name, id);
   }
 
-  function addVoter (address _addr) external onlyOwner{
+  function addVoter (address _addr) external onlyOwner returns(bool) {
     require (_addr != address(0));
     voters[_addr]=false;
     emit NewVoter(_addr, "already available for voting");
+    return voters[_addr];
   }
 }

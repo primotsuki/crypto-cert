@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/primotsuki/pca-voting/issues"
   },
-  "homepage": "https://github.com/primotsuki/pca-voting#readme"
+  "homepage": "https://github.com/primotsuki/pca-voting#readme",
+  "dependencies": {}
 }

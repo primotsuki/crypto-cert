@@ -1,6 +1,6 @@
 var voting = artifacts.require("./voting.sol");
 
-contract('init', function(accounts) {
+contract('votingSystem', function(accounts) {
   it("should assert true", function(done) {
     var init = voting.deployed();
     assert.isTrue(true);
